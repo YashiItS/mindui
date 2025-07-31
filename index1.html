@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undermind - Radically better research, radically faster</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <!-- Login/Register Section -->
+
+                <div class="header__logo">
+
+                    <h2>TechFlow</h2>
+                </div>
+                <nav class="header__nav">
+                    <div class="auth-section" id="log">
+                        <button class="auth-link" id="loginBtn">Login</button>
+                        <span class="auth-separator">|</span>
+                        <button class="auth-link" id="registerBtn">Register</button>
+                    </div>
+                    <a href="index.html" class="nav-link">home</a>
+
+                    <div class="header-buttons">
+
+
+                        <button class="btn btn-pricing">Pricing</button>
+                    </div>
+                    <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                        <span class="theme-toggle__icon">☀️</span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="all">
+        <div class="box">
+            <h1>Build Amazing Web<br> Solutions</h1>
+            <p>Transform your ideas into powerful digital experiences with our cutting-edge technology and
+                innovative approach to web development.</p>
+            <!-- Search Section -->
+            <section class="search-section">
+                <div class="container">
+                    <div class="search-container">
+                        <button class="search-bar" id="searchBar">
+                            <span class="search-bar__icon">🔍</span>
+                            <span class="search-bar__text">Describe what you're looking for...</span>
+                        </button>
+                    </div>
+                    <div class="cta-section">
+                        <button class="btn btn--primary" id="exploreExamplesBtn">Explore Examples
+
+
+                        </button>
+                        
+                    </div>
+                </div>
+            </section>
+            <!-- Examples Modal -->
+            <div class="examples-modal hidden" id="examplesModal">
+                <div class="examples-modal__overlay" id="examplesOverlay"></div>
+                <div class="examples-modal__content">
+                    <div class="examples-modal__header">
+                        <h2 class="examples-modal__title">Research Examples & Resources</h2>
+                        <button class="examples-modal__close" id="examplesModalClose">&times;</button>
+                    </div>
+                    <div class="examples-modal__body">
+                        <div class="examples-content">
+                            <div class="example-item">
+                                <h3>🧬 Biomedical Research</h3>
+                                <p>Explore cutting-edge research in genetic engineering, CRISPR technology, and
+                                    precision medicine. Our AI analyzes thousands of peer-reviewed papers to bring you
+                                    the latest breakthroughs.</p>
+                                <div class="example-links">
+                                    <a href="#" class="example-link">Latest CRISPR Studies</a>
+                                    <a href="#" class="example-link">Precision Medicine Advances</a>
+                                    <a href="#" class="example-link">Gene Therapy Research</a>
+                                </div>
+                            </div>
+
+                            <div class="example-item">
+                                <h3>🔬 Quantum Computing</h3>
+                                <p>Discover revolutionary developments in quantum algorithms, quantum supremacy, and
+                                    practical applications. Stay updated with the most recent publications from leading
+                                    research institutions.</p>
+                                <div class="example-links">
+                                    <a href="#" class="example-link">Quantum Algorithms</a>
+                                    <a href="#" class="example-link">IBM Quantum Research</a>
+                                    <a href="#" class="example-link">Google Quantum AI</a>
+                                </div>
+                            </div>
+
+                            <div class="example-item">
+                                <h3>🤖 Machine Learning & AI</h3>
+                                <p>Dive deep into neural networks, transformer models, and AI ethics. Our comprehensive
+                                    analysis covers everything from foundational papers to the latest GPT developments.
+                                </p>
+                                <div class="example-links">
+                                    <a href="#" class="example-link">Transformer Architecture</a>
+                                    <a href="#" class="example-link">Large Language Models</a>
+                                    <a href="#" class="example-link">AI Ethics Research</a>
+                                </div>
+                            </div>
+
+                            <div class="example-item">
+                                <h3>🌍 Climate Science</h3>
+                                <p>Access comprehensive research on climate change, renewable energy solutions, and
+                                    environmental sustainability. Track the latest findings from climate research
+                                    organizations worldwide.</p>
+                                <div class="example-links">
+                                    <a href="#" class="example-link">IPCC Reports</a>
+                                    <a href="#" class="example-link">Renewable Energy Tech</a>
+                                    <a href="#" class="example-link">Carbon Capture Studies</a>
+                                </div>
+                            </div>
+
+                            <div class="example-item">
+                                <h3>🧪 Materials Science</h3>
+                                <p>Explore innovations in nanotechnology, superconductors, and smart materials. Our AI
+                                    tracks breakthroughs in materials engineering and their practical applications.</p>
+                                <div class="example-links">
+                                    <a href="#" class="example-link">Nanomaterials Research</a>
+                                    <a href="#" class="example-link">Superconductor Studies</a>
+                                    <a href="#" class="example-link">Smart Materials</a>
+                                </div>
+                            </div>
+
+                            <div class="example-item">
+                                <h3>🚀 Space Technology</h3>
+                                <p>Stay current with aerospace engineering, satellite technology, and space exploration
+                                    missions. From Mars rovers to space telescopes, discover the latest in space
+                                    research.</p>
+                                <div class="example-links">
+                                    <a href="#" class="example-link">Mars Mission Updates</a>
+                                    <a href="#" class="example-link">James Webb Telescope</a>
+                                    <a href="#" class="example-link">SpaceX Research</a>
+                                </div>
+                            </div>
+
+                            <div class="example-item">
+                                <h3>💊 Drug Discovery</h3>
+                                <p>Follow the latest in pharmaceutical research, drug development pipelines, and
+                                    clinical trials. Our system monitors regulatory approvals and breakthrough
+                                    treatments.</p>
+                                <div class="example-links">
+                                    <a href="#" class="example-link">Clinical Trial Database</a>
+                                    <a href="#" class="example-link">FDA Approvals</a>
+                                    <a href="#" class="example-link">Drug Development</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+    </section>
+    </div>
+
+
+
+
+
+
+    </main>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p>&copy; 2025 Undermind. Revolutionizing research through AI.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login/Register Modal -->
+    <div class="modal hidden" id="authModal">
+        <div class="modal__overlay" id="modalOverlay"></div>
+        <div class="modal__content">
+            <div class="modal__header">
+                <h2 class="modal__title" id="modalTitle">Welcome Back</h2>
+                <button class="modal__close" id="modalClose" aria-label="Close modal">×</button>
+            </div>
+            <div class="modal__body">
+                <!-- Login Form -->
+                <form class="auth-form" id="loginForm">
+                    <div class="form-group">
+                        <label class="form-label" for="loginEmail">Email</label>
+                        <input type="email" id="loginEmail" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="loginPassword">Password</label>
+                        <input type="password" id="loginPassword" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="rememberMe">
+                            <span class="checkbox-text">Remember me</span>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Sign In</button>
+                    <div class="auth-links">
+                        <button type="button" class="link-btn" id="forgotPasswordBtn">Forgot password?</button>
+                    </div>
+                </form>
+
+                <!-- Register Form -->
+                <form class="auth-form hidden" id="registerForm">
+                    <div class="form-group">
+                        <label class="form-label" for="registerName">Full Name</label>
+                        <input type="text" id="registerName" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="registerEmail">Email</label>
+                        <input type="email" id="registerEmail" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="registerPassword">Password</label>
+                        <input type="password" id="registerPassword" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="confirmPassword">Confirm Password</label>
+                        <input type="password" id="confirmPassword" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Create Account</button>
+                </form>
+
+                <!-- Forgot Password Form -->
+                <form class="auth-form hidden" id="forgotPasswordForm">
+                    <div class="form-group">
+                        <label class="form-label" for="forgotEmail">Email</label>
+                        <input type="email" id="forgotEmail" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Reset Password</button>
+                </form>
+
+                <div class="auth-toggle">
+                    <button type="button" class="link-btn" id="authToggleBtn">
+                        Don't have an account? <span class="auth-toggle__text">Sign up</span>
+                    </button>
+                </div>
+
+                <div class="auth-back hidden" id="authBack">
+                    <button type="button" class="link-btn" id="backToAuthBtn">
+                        ← Back to sign in
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
